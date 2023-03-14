@@ -11,11 +11,11 @@ Uchopte láhev piva do jedné a otvírák do druhé ruky. Nasaďte otvírák na 
 
 **Materiál:** Otvírák na pivo je vyroben z kvalitního kovu, který je pevný, odolný a nekoroduje.
 
-**Rozměry:** Otvírák na pivo má délku 8 cm a šířku 2 cm.
+**Rozměry:** Délka 8 cm a šířka 2 cm.
 
-**Barva:** Otvírák na pivo je k dispozici v různých barevných variantách: černá, stříbrná, červená a modrá.
+**Barva:** Je k dispozici v různých barevných variantách: černá, stříbrná, červená a modrá.
 
-**Použití:** Použití otvíráku na pivo je velmi jednoduché. Otvírák stačí nasadit na víčko podle obrázku a následně zapáčit směrem nahoru.
+**Použití:** Použití otvíráku je velmi jednoduché. Otvírák stačí nasadit na víčko podle obrázku a následně zapáčit směrem nahoru.
 
 ## Tutorial
 **Seznam věcí:** láhev piva, otvírák na pivo\
