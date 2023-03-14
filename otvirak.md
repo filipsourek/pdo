@@ -18,6 +18,6 @@ Uchopte láhev piva do jedné a otvírák do druhé ruky. Nasaďte otvírák na 
 **Použití:** Použití otvíráku na pivo je velmi jednoduché. Otvírák stačí nasadit na víčko podle obrázku a následně zapáčit směrem nahoru.
 
 ## Tutorial
-Seznam věcí: láhev piva, otvírák na pivo
-Doba:  Jednotky vteřin
-Postup: Uchopte otvírák do vaší dominantní ruky a láhev s pivem do druhé. Podle následujícího obrázku nasaďte otvírák na víčko od piva. Poté páčením směrem nahoru víčko odpadne. Díky páce která vznikne víčko odpadne s využitím malé síly, proto je tento způsob velmi efektivní.
+**Seznam věcí:** láhev piva, otvírák na pivo\
+**Doba:**  Jednotky vteřin\
+**Postup:** Uchopte otvírák do vaší dominantní ruky a láhev s pivem do druhé. Podle následujícího obrázku nasaďte otvírák na víčko od piva. Poté páčením směrem nahoru víčko odpadne. Díky páce která vznikne víčko odpadne s využitím malé síly, proto je tento způsob velmi efektivní.
