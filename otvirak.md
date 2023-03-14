@@ -21,3 +21,9 @@ Uchopte láhev piva do jedné a otvírák do druhé ruky. Nasaďte otvírák na 
 **Seznam věcí:** láhev piva, otvírák na pivo\
 **Doba:**  Jednotky vteřin\
 **Postup:** Uchopte otvírák do vaší dominantní ruky a láhev s pivem do druhé. Podle následujícího obrázku nasaďte otvírák na víčko od piva. Poté páčením směrem nahoru víčko odpadne. Díky páce která vznikne víčko odpadne s využitím malé síly, proto je tento způsob velmi efektivní.
+
+
+
+
+
+https://www.google.com/search?q=image+manual+how+to+open+beer&tbm=isch&chips=q:image+manual+how+to+open+beer,online_chips:open+bottle+cap:01tWR-qCP9c%3D&client=ms-android-oneplus&prmd=ivsn&hl=en&sa=X&ved=2ahUKEwizz8KM4Nr9AhX8sicCHTGbDb4Q4lYoAXoECAEQBw&biw=451&bih=852#imgrc=fE_-oYnXQnFISM&imgdii=ld23JkOut3bXIM&lnspr=W10=
