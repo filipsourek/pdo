@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Návod k použití aplikace Recorder</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin-top: 0;
+    }
+
+    * {
+      scroll-behavior: smooth;
+    }
+
+    h1 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ol {
+      margin-top: 0;
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+
+    code {
+      font-family: monospace;
+      background-color: #f8f9fa;
+      padding: 2px 4px;
+      border-radius: 3px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .alert {
+      background-color: #f8d7da;
+      color: #721c24;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 3px;
+    }
+
+    .alert p {
+      margin: 0;
+    }
+
+    .btn {
+      position: fixed;
+      bottom: 10px;
+      right: 3%;
+      z-index: 99;
+      font-size: 15px;
+      border: 2px solid;
+      outline: none;
+      background-color: white;
+      color: black;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .hidden-btn {
+      position: absolute;
+      background-color: white;
+      color: white;
+      cursor: inherit;
+    }
+
+    ol {
+      list-style-type: none;
+      counter-reset: item;
+      margin: 0;
+      padding: 0;
+    }
+
+    ol>li {
+      display: table;
+      counter-increment: item;
+      margin-bottom: 0.6em;
+    }
+
+    ol>li:before {
+      content: counters(item, ".") ". ";
+      display: table-cell;
+      padding-right: 0.6em;
+    }
+
+    li ol>li {
+      margin: 0;
+      margin: 5px;
+    }
+
+    li ol>li:before {
+      content: counters(item, ".") " ";
+    }
+  </style>
+</head>
+
+<body>
+  <div id="top" class="container">
+    <h1>Návod k použití aplikace Recorder</h1>
+
+    <h2>Obsah</h2>
+    <ol>
+      <li><a href="#instalace-aplikace-recorder">Instalace aplikace</a></li>
+      <li><a href="#nastaveni-nahravani">Nastavení nahrávání</a>
+        <ol>
+          <li><a href="#volba-obrazovky-pro-zaznam">Volba obrazovky pro záznam</a></li>
+          <li><a href="#volba-poctu-snimku-za-sekundu-pro-zaznam-fps">Volba snímkovací frekvence (FPS)</a>
+          </li>
+          <li><a href="#volba-mikrofonu-pro-zaznam">Volba mikrofonu pro záznam</a></li>
+        </ol>
+      </li>
+      <li><a href="#nahranvani">Nahrávání</a>
+        <ol>
+          <li><a href="#zapnuti-nahravani">Zapnutí nahrávání</a></li>
+          <li><a href="#ukonceni-nahravani">Ukončení nahrávání</a></li>
+        </ol>
+      </li>
+      <li><a href="#problemy">Problémy</a></li>
+    </ol>
+
+    <h2 id="instalace-aplikace-recorder">1. Instalace aplikace Recorder</h2>
+    <ol>
+      <li>Stáhněte si instalační balíček aplikace Recorder ze stránky <a
+          href="https://www.recorderapp.com/download">Nahrávací aplikace Recorder</a>.</li>
+      <li>Spusťte instalaci otevřením souboru <code>setup.exe</code>.</li>
+      <li>Pokračujte kliknutím na tlačítko <code>Instalovat</code>.</li>
+      <li>Po instalaci se aplikace spustí. Pro další spuštění vyhledejte aplikaci v nabídce Start.</li>
+    </ol>
+
+    <h2 id="nastaveni-nahravani">2. Nastavení nahrávání</h2>
+    <p>Před zapnutím nahrávání je potřeba provést veškeré nastavení. Po zapnutí nahrávání se změny v nastavení
+      neprojeví.</p>
+
+    <h3 id="volba-obrazovky-pro-zaznam">2.1 Volba obrazovky pro záznam</h3>
+    <p>Pokud je k dispozici více monitorů, lze si vybrat, jaký z těchto monitorů se bude nahrávat. Po spuštění je vždy
+      vybrán primární monitor počítače.</p>
+    <ul>
+      <li>Vybrat monitor lze pomocí rozbalovacího menu <strong>Výběr monitoru</strong>.</li>
+      <li>Po kliknutí na daný monitor se zobrazí náhled obrazovky.</li>
+    </ul>
+
+    <h3 id="volba-poctu-snimku-za-sekundu-pro-zaznam-fps">2.2 Volba snímkovací frekvence (FPS)</h3>
+    <p>Po spuštění je vybráno 24 FPS, které je dostatečné pro běžné použití. V případě nedostatečnosti lze toto
+      nastavení změnit na 30 nebo 60 FPS.</p>
+    <ul>
+      <li>Změnit FPS lze pomocí rozbalovacího menu <strong>Počet fps</strong>.</li>
+    </ul>
+
+    <h3 id="volba-mikrofonu-pro-zaznam">2.3 Volba mikrofonu pro záznam</h3>
+    <p>Lze vybrat z jakého mikrofonu bude probíhat nahrávání.</p>
+    <ul>
+      <li>Změnit mikrofon lze v rozbalovacím menu <strong>Výběr mikrofonu</strong>, kde jsou zobrazeny všechny připojené
+        zařízení pro záznam zvuku.</li>
+      <li>Možnost „Bez mikrofonu“ vypne nahrávání mikrofonu.</li>
+    </ul>
+
+    <h2 id="nahranvani">3. Nahrávání</h2>
+
+    <h3 id="zapnuti-nahravani">3.1 Zapnutí nahrávání</h3>
+    <ul>
+      <li>Pro zapnutí nahrávání klikněte na tlačítko „Zapni nahrávání“.</li>
+      <li>Při zapnutém nahrávání nejde okno aplikace zavřít, pro zavření je nejprve potřeba nahrávání ukončit.</li>
+      <li>Délka záznamu je omezena na 3 hodiny a 30 minut.</li>
+    </ul>
+
+    <h3 id="ukonceni-nahravani">3.2 Ukončení nahrávání</h3>
+    <ul>
+      <li>Pro ukončení nahrávání klikněte na tlačítko „Ukonči nahrávání“.</li>
+      <li>Dojde k automatickému uložení videa s názvem ve formátu DDMMRR_HHMMSS.mp4.</li>
+      <ul>
+        <li>Natočené záznamy obrazovky se ukládají do adresáře C:\Users\UserName\Videos\Recorder
+          (adresář UserName nahraďte vaším uživatelským jménem ve Windows).</li>
+      </ul>
+    </ul>
+
+    <h2 id="problemy">4. Problémy</h2>
+    <div>
+      <p>V případě chyby vyskočí v aplikaci text „Nastala chyba“ a do adresáře k ukládaným záznamům se uloží textový
+        soubor s informacemi o chybě.</p>
+    </div>
+    <a href="#top" class="btn">Nahoru</button>
+      <a class="btn hidden-btn">Nahoru</a>
+  </div>
+
+</body>
+
+</html>
